@@ -8,8 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Data
 @Entity
+@Data
 public class Category {
 
     @Id
@@ -18,5 +18,5 @@ public class Category {
     private String name;
 
 
-//comentarios
+
 }
